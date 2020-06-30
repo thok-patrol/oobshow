@@ -7,7 +7,11 @@ console.log(process.env.NODE_ENV)
 const App = express()
 
 App.get('/', (req, res) => {
-    res.sendFile(CURR_PATH + 'index.js');
+    res.sendFile(CURR_PATH + 'index.html');
+})
+
+App.get('/:uri', (req, res) => {
+    res.sendFile(CURR_PATH + req.params.uri)
 })
 
 App.listen(PORT, () => {
