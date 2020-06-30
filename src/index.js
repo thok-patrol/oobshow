@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import FrontPage from './FrontPage'
 
 class Main extends React.Component {
     constructor(props) {
@@ -7,9 +8,7 @@ class Main extends React.Component {
     }
 
     render() {
-        return <div>
-            <p>It's THOK o'clock now</p>
-            </div>
+        return <FrontPage />
     }
 }
 

@@ -13,6 +13,7 @@
   "author": "Ryan S Werner",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
     "mysql": "^2.18.1",
