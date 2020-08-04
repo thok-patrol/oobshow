@@ -60,7 +60,7 @@ export default class FrontPage extends React.Component {
                   <h5 className='text-muted mt-4'>Major/Profession</h5>
                   <p>Computer and Political Science</p>
                   <h5 className='text-muted mt-4'>Favorite Dog</h5>
-                  <p>Maisey</p>
+                  <p>Maisy</p>
                   <h5 className='text-muted mt-4'>Top Priority</h5>
                   <p>Taylor Swift</p>
               </Person>
@@ -71,7 +71,7 @@ export default class FrontPage extends React.Component {
                     <h5 className='text-muted mt-4'>Major/Profession</h5>
                   <p>Computer Science</p>
                   <h5 className='text-muted mt-4'>Favorite Dog</h5>
-                  <p>Sarah</p>
+                  <p>Sara</p>
                   <h5 className='text-muted mt-4'>Top Priority</h5>
                   <p>Stopping Ryan's botnet</p>
                 </Person></Col>
