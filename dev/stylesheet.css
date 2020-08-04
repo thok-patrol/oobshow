@@ -42,3 +42,69 @@ body {
     height: auto;
     object-fit: cover;
 }
+
+.episode-card {
+    max-width: 420px;
+    background-color: #24246B !important;
+    color: white;
+}
+
+.truncate-overflow {
+    --max-lines: 3;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+  }
+
+  .ryan {
+
+      transition: 0.5s;
+  }
+
+  .ryan:hover {
+      background-color: rgb(82, 0, 82);
+      transition: 0.5s;
+      color: white;
+  }
+
+  .eric {
+
+    transition: 0.5s;
+  }
+
+  .eric:hover {
+    background-color: rgb(14, 82, 0);
+    transition: 0.5s;
+    color: white;
+}
+
+  .bailey {
+
+    transition: 0.5s;
+  }
+
+  .bailey:hover {
+    background-color: rgb(15, 0, 82);
+    transition: 0.5s;
+    color: white;
+}
+
+  .aaraf {
+
+    transition: 0.5s;
+  }
+
+  .aaraf:hover {
+    background-color: rgb(82, 0, 0);
+    transition: 0.5s;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: inherit;
+}

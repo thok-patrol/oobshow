@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import FrontPage from './FrontPage'
+import TopNav from './Components/TopNav'
+import Footer from './Components/Footer'
 
 class Main extends React.Component {
     constructor(props) {
@@ -8,7 +10,12 @@ class Main extends React.Component {
     }
 
     render() {
-        return <FrontPage />
+        return (
+        <div>
+            <TopNav />
+        <FrontPage />
+        <Footer />
+        </div>)
     }
 }
 
